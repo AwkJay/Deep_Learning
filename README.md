@@ -59,7 +59,7 @@ The assignments are in the form of Jupyter/Google Colab notebooks (`.ipynb` file
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/your-repository-name.git](https://github.com/your-username/your-repository-name.git)
+    git clone [https://github.com/AwkJay/Deep_Learning.git](https://github.com/AwkJay/Deep_Learning.git)
     ```
 2.  **Open in Google Colab:** Once the notebooks are uploaded, the easiest way to run them will be to open them directly in [Google Colab](https://colab.research.google.com/).
 3.  **Dependencies:** Any special libraries required for a specific notebook (like `diffusers` or `lime`) are typically installed at the beginning of the notebook file with a `!pip install ...` command.
