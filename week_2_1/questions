@@ -1,0 +1,101 @@
+# Week 2 - Day 1 Assignment
+
+## Basics of CNNs
+
+Assignment: Building a CNN for Image Classification on CIFAR-10
+
+Total Marks: 10
+Tools Allowed: Python, TensorFlow/Keras or PyTorch
+
+---
+
+## Question 1: Dataset Exploration [2 marks]
+
+### Tasks:
+
+1. Load the CIFAR-10 dataset.
+2. Display 10 sample images with their class labels.
+3. Provide a brief summary of the dataset including:
+
+   * Number of classes
+   * Image size
+   * Number of training samples
+   * Number of testing samples
+
+---
+
+## Question 2: Preprocessing [1 mark]
+
+### Tasks:
+
+1. Normalize the pixel values appropriately.
+2. Perform one-hot encoding or label transformation as needed.
+3. Optionally, perform basic data augmentation such as:
+
+   * Horizontal flip
+   * Rotation
+
+---
+
+## Question 3: Model Architecture [3 marks]
+
+### Tasks:
+
+1. Design a CNN architecture with at least:
+
+   * 3 convolutional layers
+   * 1 max pooling layer
+   * 1 dropout layer
+   * 1 fully connected (dense) layer at the end
+
+2. Display the model summary.
+
+3. Explain your architectural choices.
+
+4. Use:
+
+   * ReLU activation for hidden layers
+   * Softmax activation at the output layer
+
+---
+
+## Question 4: Training [2 marks]
+
+### Tasks:
+
+1. Compile the model using an appropriate optimizer and loss function.
+2. Train the model for at least 10 epochs.
+3. Plot training and validation accuracy.
+4. Provide insights from training including:
+
+   * Overfitting behavior
+   * Convergence
+   * Learning curve observations
+
+---
+
+## Question 5: Evaluation [2 marks]
+
+### Tasks:
+
+1. Evaluate the trained model on the test set.
+2. Display a confusion matrix.
+3. Compute and display the following metrics:
+
+   * Accuracy
+   * Precision
+   * Recall
+   * F1-score
+
+---
+
+## Bonus (Optional: +2 marks)
+
+### Tasks:
+
+1. Implement early stopping or model checkpointing.
+2. Tune hyperparameters such as:
+
+   * Learning rate
+   * Batch size
+   * Optimizer choice
