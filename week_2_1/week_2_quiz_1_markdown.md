@@ -125,3 +125,30 @@
 - d) Normalize data
 
 
+
+
+
+
+## Correct Answers
+
+1. c
+2. c
+3. b
+4. b
+5. a
+6. c
+7. b
+8. d
+9. a
+10. b
+11. a
+12. a
+13. d
+14. c
+15. c
+16. c
+17. b
+18. d
+19. d
+20. a
+
