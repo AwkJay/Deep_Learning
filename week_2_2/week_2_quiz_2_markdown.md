@@ -65,3 +65,20 @@
 - d) The entire pre-trained base
 
 
+
+
+
+
+## Correct Answers
+
+1. c
+2. b
+3. b
+4. c
+5. c
+6. d
+7. c
+8. b
+9. b
+10. d
+
