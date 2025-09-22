@@ -1,0 +1,41 @@
+# Week 2 - Day 5 Assignment
+
+## Topic: Autoencoders and Variational Autoencoders
+
+Total Marks: 10
+
+---
+
+## Question 1: Build a Basic Autoencoder [4 marks]
+
+### Tasks:
+
+1. Load the MNIST dataset and normalize it.
+2. Build a simple autoencoder using Dense layers.
+3. Train the model to reconstruct the input images.
+4. Display 5 original and reconstructed images side by side.
+
+---
+
+## Question 2: Visualize Encoded Representations [3 marks]
+
+### Tasks:
+
+1. Use the encoder to extract compressed features from the first 100 test images.
+2. Reduce dimensionality to 2D using PCA or t-SNE.
+3. Plot the encoded features.
+4. Color the points according to their digit labels.
+
+---
+
+## Question 3: Build a Denoising Autoencoder [3 marks]
+
+### Tasks:
+
+1. Add random noise to the MNIST images.
+2. Train an autoencoder to take noisy images as input and clean images as output.
+3. Display 3 examples showing:
+
+   * Noisy Input
+   * Denoised Output
+   * Original Target
