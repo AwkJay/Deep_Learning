@@ -66,3 +66,19 @@
 
 
 
+
+
+
+## Correct Answers
+
+1. d
+2. b
+3. b
+4. d
+5. c
+6. a
+7. d
+8. d
+9. a
+10. b
+
