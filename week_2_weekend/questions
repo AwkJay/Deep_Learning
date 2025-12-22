@@ -1,0 +1,103 @@
+# Week 2 - Weekly Assignment
+
+Max Marks: 20
+
+---
+
+## Question 1: Basics of CNNs – CIFAR-10 Classification [4 marks]
+
+### Tasks:
+
+1. Load the CIFAR-10 dataset from `keras.datasets`.
+
+2. Build a CNN with the following architecture:
+
+   * 2 convolutional layers
+   * MaxPooling layer
+   * Flatten → Dense → Softmax
+
+3. Train the model for at least 10 epochs.
+
+4. Plot:
+
+   * Training accuracy and loss
+   * Validation accuracy and loss
+
+5. Print classification accuracy on the test set.
+
+---
+
+## Question 2: Transfer Learning with Pre-trained CNNs [4 marks]
+
+### Tasks:
+
+1. Load the CIFAR-10 dataset.
+
+2. Use a pre-trained model (ResNet50 or VGG16) from `keras.applications` with:
+
+   * `include_top=False`
+   * Input shape matching CIFAR-10
+
+3. Freeze all base layers.
+
+4. Add a custom head:
+
+   * `GlobalAveragePooling2D` → Dense → Softmax
+
+5. Train only the top layers.
+
+6. Report accuracy and show predictions on 5 misclassified images.
+
+---
+
+## Question 3: RNNs – Character-Level Text Generation [4 marks]
+
+### Tasks:
+
+1. Use a small plain text file (e.g., a few paragraphs of English text).
+
+2. Preprocess:
+
+   * Character-level tokenization (char to index and index to char)
+
+3. Build a simple LSTM model to predict the next character.
+
+4. Train for a few epochs.
+
+5. Generate text using a seed string.
+
+6. Plot training loss.
+
+---
+
+## Question 4: Transformers – Text Summarization or Translation [4 marks]
+
+### Tasks:
+
+1. Use the Hugging Face transformers library.
+
+2. Summarize a long article using T5 or BART.
+
+3. Show 3 input-output examples.
+
+4. Try changing the prompt and observe changes.
+
+---
+
+## Question 5: Autoencoders – Representation Learning [4 marks]
+
+### Tasks:
+
+1. Use the MNIST dataset.
+
+2. Build a convolutional autoencoder with:
+
+   * Encoder: Conv + MaxPooling
+   * Decoder: UpSampling + Conv
+
+3. Train for 10–15 epochs.
+
+4. Show:
+
+   * Original vs Reconstructed images (side-by-side)
+   * Bottleneck layer shape
